@@ -1,0 +1,6 @@
+.texto-grande{
+  font-size: 64px;
+  line-height: 1.125; /*altura da linha sempre relativo a tipografia*/
+  font-family: 'Popins';
+  font-weight:600;
+}

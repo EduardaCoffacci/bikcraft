@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+/* global */
+@import "./global/global.css";
+@import "./utilidades/tipografia.css";
+@import "./global/header.css";
+
+/*Utilidades*/
+@import "./utilidades/componentes.css";
+
+/*Home*/
+@import "./home/introducao.css";
+
+
+
+
+
+
+

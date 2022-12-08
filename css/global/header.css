@@ -1,21 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-.body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-/* estilo header */
 .header-bg {
   background-color: #000;
-}
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-a {
-  text-decoration: none;
 }
 .header {
   display: flex;
@@ -40,19 +24,21 @@ a {
   color: #fff;
   font-size: 18px;
   position: relative;
+  font-family:'Popins';
+  font-weight:400;
 }
 .header-menu a:after {
   content: "";
   display: block;
   height: 2px;
   width: 0%;
-  background-color: #ffffff;
+  background-color: yellow;
   margin-top: 4px;
   position: absolute;
 }
 .header-menu a:hover:after {
   width: 100%;
-  transition: 0.5s;
+  transition: 0.9s;
 }
 @media (max-width: 800px) {
   .header-menu {
